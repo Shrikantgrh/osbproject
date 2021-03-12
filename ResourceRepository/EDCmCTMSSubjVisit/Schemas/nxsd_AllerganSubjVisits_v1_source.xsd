@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nxsd="http://xmlns.oracle.com/pcbpel/nxsd" xmlns:tns="http://soa.incresearch.com/xsd/EDNAllerganSubjVisits" targetNamespace="http://soa.incresearch.com/xsd/EDNAllerganSubjVisits" elementFormDefault="qualified" attributeFormDefault="unqualified" nxsd:version="NXSD" nxsd:stream="chars" nxsd:encoding="US-ASCII" nxsd:hasHeader="true" nxsd:headerLines="1" nxsd:headerLinesTerminatedBy="${eol}">
+
+
+  <xsd:element name="subjectVisits">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Subject" minOccurs="1" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="STUDYNAME" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="STUDYNUMBER" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="SITENUMBER" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="SCREENING_NUMBER" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="INFORMCONSENTDATE" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="GENDER" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="SCREENDATE" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="SCREENFAILEDDATE" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="ENROLLEDDATE" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="COMPLETEDDATE" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="DISCONTINUATIONDATE" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="VISITNAME" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="VISITNUM" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="," nxsd:quotedBy="&quot;"/>
+              <xsd:element name="VISITDATE" type="xsd:string" nxsd:style="terminated" nxsd:terminatedBy="${eol}" nxsd:quotedBy="&quot;"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+<xsd:annotation>
+      <xsd:appinfo>NXSDSAMPLE=/C:/Users/mareddy/Desktop/Allergan_WorkingPlace/Allergan/NEW/DUR001_306_UAT.csv</xsd:appinfo>
+      <xsd:appinfo>USEHEADER=true</xsd:appinfo>
+   </xsd:annotation>
+</xsd:schema>

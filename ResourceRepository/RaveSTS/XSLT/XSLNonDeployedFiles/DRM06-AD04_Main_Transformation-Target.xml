@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<tns:ODM FileType="Transactional" FileOID="7da82858-c3fe-4fa8-9c9e-695a0c247190" CreationDateTime="2020-11-17T10:35:54.040-00:00" ODMVersion="1.3" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:DVMFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.dvm.DVMFunctions" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:ns1="http://soa.incresearch.com/Rave/URL" xmlns:java="http://www.oracle.com/XSL/Transform/java/java.lang.String" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:XrefFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.xref.XrefFunctions" xmlns:IsUserInGroupFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInGroupFunction" xmlns:client="http://xmlns.oracle.com/RaveSTSPOC/DemoStudyTFM/DemoStudyBPELProcess" xmlns:BasicCredentialsUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.BasicCredentialsUserFunction" xmlns:RuntimeTypeConversionFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.RuntimeTypeConversionFunctions" xmlns:UUIDUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.UUIDUserFunction" xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:IsUserInRoleFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInRoleFunction" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 file:/Users/shrek/jdeveloper/mywork/RaveSTSServiceBusApplication/ResourceRepository/RaveSTS/Schemas/RaveODM.xsd">
+   <tns:ClinicalData MetaDataVersionOID="705" StudyOID="DRM06-AD07-KGAA(SDTSUAT)">
+      <tns:SubjectData TransactionType="Update" SubjectKey="8805-880507">
+         <tns:SiteRef LocationOID="8805"/>
+         <tns:StudyEventData StudyEventOID="BASE" StudyEventRepeatKey="1" TransactionType="Update">
+            <tns:FormData FormOID="DM" FormRepeatKey="1" TransactionType="Update">
+               <tns:ItemGroupData ItemGroupOID="DM_LOG_LINE" TransactionType="Update">
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="DM.BRTHDAT" Value="Jul/2003" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="DM.SEX" Value="F" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="DM.AGEY" Value="17" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="DM.AGEG" Value="1" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="DM.BIRTHY" IsNull="Yes" TransactionType="Update"/>
+               </tns:ItemGroupData>
+            </tns:FormData>
+         </tns:StudyEventData>
+      </tns:SubjectData>
+   </tns:ClinicalData>
+</tns:ODM>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<tns:Subject xmlns:BasicCredentialsUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.BasicCredentialsUserFunction" xmlns:DVMFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.dvm.DVMFunctions" xmlns:UUIDUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.UUIDUserFunction" xmlns:XrefFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.xref.XrefFunctions" xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:IsUserInGroupFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInGroupFunction" xmlns:IsUserInRoleFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInRoleFunction" xmlns:rl="http://soa.incresearch.com/Rave/URL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tns="http://soa.incresearch.com/Rave/STS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://soa.incresearch.com/Rave/STS file:/Users/shrek/jdeveloper/mywork/RaveSTSServiceBusApplication/ResourceRepository/RaveSTS/Schemas/RaveSTS.xsd">
+   <tns:Details>
+      <tns:sourceSubjectKey>4014-467</tns:sourceSubjectKey>
+      <tns:sourceLocationOID>4014</tns:sourceLocationOID>
+      <tns:targetSubjectKey>7001-401467</tns:targetSubjectKey>
+      <tns:targetLocationOID>7001</tns:targetLocationOID>
+      <tns:transfer>1</tns:transfer>
+   </tns:Details>
+</tns:Subject>

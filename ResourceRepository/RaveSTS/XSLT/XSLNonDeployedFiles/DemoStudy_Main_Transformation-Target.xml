@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ODM xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.cdisc.org/ns/odm/v1.3" FileType="Snapshot" FileOID="e8e6aebe-21d0-4612-8a3e-61815e34389d" CreationDateTime="2018-02-23T12:38:45.873-00:00" ODMVersion="1.3">
+<ClinicalData StudyOID="Copy_Source_Demo_Project(UAT)" MetaDataVersionOID="4593">
+<SubjectData SubjectKey="10006">
+<SiteRef LocationOID="COPY_UAT1"/>
+<StudyEventData StudyEventOID="VIF" StudyEventRepeatKey="1">
+<FormData FormOID="AE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="AE_LOG_LINE" ItemGroupRepeatKey="1">
+<ItemData ItemOID="AE.AEYN" Value="1"/>
+<ItemData ItemOID="AE.AETERM" Value="AE ROW 1 BRADYCARDIA"/>
+<ItemData ItemOID="AE.AESER" Value="2"/>
+<ItemData ItemOID="AE.AESDTH" Value="0"/>
+<ItemData ItemOID="AE.AESDIS" Value="0"/>
+<ItemData ItemOID="AE.AEST_DT" Value="16 Sep 2017"/>
+<ItemData ItemOID="AE.AEEN_DT" Value="17 Sep 2017"/>
+<ItemData ItemOID="AE.AEOUT" Value="1"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="Copy_Source_Demo_Project(UAT)" MetaDataVersionOID="4593">
+<SubjectData SubjectKey="10006">
+<SiteRef LocationOID="COPY_UAT1"/>
+<StudyEventData StudyEventOID="VIF" StudyEventRepeatKey="1">
+<FormData FormOID="AE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="AE_LOG_LINE" ItemGroupRepeatKey="2">
+<ItemData ItemOID="AE.AEYN" Value="1"/>
+<ItemData ItemOID="AE.AETERM" Value="AE ROW 2 LEFT FOOT AMPUTATION"/>
+<ItemData ItemOID="AE.AESER" Value="1"/>
+<ItemData ItemOID="AE.AESDTH" Value="0"/>
+<ItemData ItemOID="AE.AESDIS" Value="1"/>
+<ItemData ItemOID="AE.AEST_DT" Value="19 Nov 2017"/>
+<ItemData ItemOID="AE.AEEN_DT" Value="19 Nov 2017"/>
+<ItemData ItemOID="AE.AEOUT" Value="1"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+</ODM>

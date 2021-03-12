@@ -1,0 +1,71 @@
+<xsd:schema targetNamespace="http://www.cdisc.org/ns/odm/v1.3" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:import schemaLocation="mdsol.xsd" namespace="http://www.mdsol.com/ns/odm/metadata"/>
+
+    <xsd:element name="ODM" type="ODM"/>
+    <xsd:complexType name="ODM">
+        <xsd:sequence>
+            <xsd:element name="ClinicalData" maxOccurs="unbounded" type="ClinicalData"/>
+        </xsd:sequence>
+        <xsd:attribute name="FileType" type="xsd:string"/>
+        <xsd:attribute name="FileOID" type="xsd:string"/>
+        <xsd:attribute name="CreationDateTime" type="xsd:string"/>
+        <xsd:attribute name="ODMVersion" type="xsd:float"/>
+    </xsd:complexType>
+    <xsd:complexType name="ClinicalData">
+        <xsd:sequence>
+            <xsd:element name="SubjectData" type="SubjectData"/>
+        </xsd:sequence>
+        <xsd:attribute name="StudyOID" type="xsd:string"/>
+        <xsd:attribute name="MetaDataVersionOID" type="xsd:integer"/>
+    </xsd:complexType>
+    <xsd:complexType name="SubjectData">
+        <xsd:sequence>
+            <xsd:element name="SiteRef" type="SiteRef"/>
+            <xsd:element name="StudyEventData" type="StudyEventData"/>
+        </xsd:sequence>
+        <xsd:attribute name="SubjectKey" type="xsd:integer"/>
+        <xsd:attribute name="TransactionType" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="SiteRef">
+        <xsd:attribute name="LocationOID" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="StudyEventData">
+        <xsd:sequence>
+            <xsd:element name="FormData">
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="FormData"/>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="StudyEventOID" type="xsd:string"/>
+        <xsd:attribute name="StudyEventRepeatKey" type="xsd:integer"/>
+        <xsd:attribute name="TransactionType" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="FormData">
+        <xsd:sequence>
+            <xsd:element name="ItemGroupData" type="ItemGroupData"/>
+        </xsd:sequence>
+        <xsd:attribute name="FormOID" type="xsd:string"/>
+        <xsd:attribute name="FormRepeatKey" type="xsd:integer"/>
+        <xsd:attribute name="TransactionType" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="ItemGroupData">
+        <xsd:sequence>
+            <xsd:element name="ItemData" maxOccurs="unbounded" type="ItemData"/>
+        </xsd:sequence>
+        
+        <xsd:attribute name="ItemGroupOID" type="xsd:string"/>
+        <xsd:attribute name="ItemGroupRepeatKey" type="xsd:string"/>
+        <xsd:attribute name="TransactionType" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="ItemData">
+        <xsd:attribute name="ItemOID" type="xsd:string"/>
+        <xsd:attribute name="Value" type="xsd:string"/>
+        <xsd:attribute name="IsNull" type="xsd:string"/>
+        <xsd:attribute name="TransactionType" type="xsd:string"/>
+         <xsd:attribute ref="mdsol:Lock"/>
+
+    </xsd:complexType>
+</xsd:schema>

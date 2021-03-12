@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM FileType="FileType74" FileOID="FileOID75" CreationDateTime="CreationDateTime76" ODMVersion="770.72" xmlns="http://www.cdisc.org/ns/odm/v1.3">
+   <ClinicalData StudyOID="StudyOID78" MetaDataVersionOID="79">
+      <SubjectData SubjectKey="80" TransactionType="TransactionType81">
+            <SiteRef LocationOID="5102"/>
+         <StudyEventData StudyEventOID="StudyEventOID83" StudyEventRepeatKey="84" TransactionType="TransactionType85">
+            <FormData>
+               <ItemGroupData>
+                  <ItemData/>
+                  <ItemData/>
+                  <ItemData/>
+               </ItemGroupData>
+            </FormData>
+         </StudyEventData>
+      </SubjectData>
+   </ClinicalData>
+   <ClinicalData StudyOID="StudyOID86" MetaDataVersionOID="87">
+      <SubjectData SubjectKey="88" TransactionType="TransactionType89">
+         <SiteRef LocationOID="LocationOID90"/>
+         <StudyEventData StudyEventOID="StudyEventOID91" StudyEventRepeatKey="92" TransactionType="TransactionType93">
+            <FormData>
+               <ItemGroupData>
+                  <ItemData/>
+                  <ItemData/>
+                  <ItemData/>
+               </ItemGroupData>
+            </FormData>
+         </StudyEventData>
+      </SubjectData>
+   </ClinicalData>
+   <ClinicalData StudyOID="StudyOID94" MetaDataVersionOID="95">
+      <SubjectData SubjectKey="96" TransactionType="TransactionType97">
+         <SiteRef LocationOID="LocationOID98"/>
+         <StudyEventData StudyEventOID="StudyEventOID99" StudyEventRepeatKey="100" TransactionType="TransactionType101">
+            <FormData>
+               <ItemGroupData>
+                  <ItemData/>
+                  <ItemData/>
+                  <ItemData/>
+               </ItemGroupData>
+            </FormData>
+         </StudyEventData>
+      </SubjectData>
+   </ClinicalData>
+</ODM>

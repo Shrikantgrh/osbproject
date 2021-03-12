@@ -1,0 +1,55 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://soa.incresearch.com/Rave/URL"
+     targetNamespace="http://soa.incresearch.com/Rave/URL" elementFormDefault="qualified">
+    <xsd:element name="RaveUrls" type="RaveUrls">
+        <xsd:annotation>
+            <xsd:documentation>A sample element</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="RaveUrl" type="RaveUrl"/>
+    <xsd:element name="Rule" type="Rule"/>
+    <xsd:complexType name="RaveUrl">
+        <xsd:sequence>
+            <xsd:element name="urlId" type="xsd:string"/>
+            <xsd:element name="studyName" type="xsd:string"/>
+            <xsd:element name="studyId" type="xsd:string"/>
+            <xsd:element name="projectId" type="xsd:string"/>
+            <xsd:element name="baseUrl" type="xsd:string"/>
+            <xsd:element name="getUri" type="xsd:string"/>
+            <xsd:element name="postUri" type="xsd:string"/>
+            <xsd:element name="urlUser" type="xsd:string"/>
+            <xsd:element name="urlPwd" type="xsd:string"/>
+            <xsd:element name="rules" type="Rules"/>
+        </xsd:sequence>
+        <xsd:attribute name="utype" type="xsd:string"/>
+        <xsd:attribute name="order" type="xsd:integer"/>
+        <xsd:attribute name="configId" type="xsd:string"/>
+        <xsd:attribute name="localTracking" type="xsd:string" default="N"/>
+    </xsd:complexType>
+    <xsd:complexType name="Filters">
+        <xsd:sequence>
+            <xsd:element name="filterId" type="xsd:string"/>
+            <xsd:element name="filterName" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Rules">
+        <xsd:sequence maxOccurs="unbounded">
+            <xsd:element name="rule" type="Rule"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Rule">
+        <xsd:sequence>
+            <xsd:element name="formOID" type="xsd:string"/>
+            <xsd:element name="itemName" type="xsd:string"/>
+            <xsd:element name="itemValue" type="xsd:string"/>
+            <xsd:element name="validationType" type="xsd:string"/>
+            <xsd:element name="xqueryStmt" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="RaveUrls">
+        <xsd:sequence maxOccurs="1">
+            <xsd:element name="RaveUrl" type="RaveUrl" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

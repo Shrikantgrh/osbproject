@@ -1,0 +1,3 @@
+<xsd:schema xmlns:tns="http://www.mdsol.com/ns/odm/metadata"  targetNamespace="http://www.mdsol.com/ns/odm/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:attribute name="Lock" type="xsd:string" />
+</xsd:schema>

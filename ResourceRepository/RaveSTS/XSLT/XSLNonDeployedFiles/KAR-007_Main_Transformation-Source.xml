@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Subject xmlns="http://soa.incresearch.com/Rave/STS">
+   <RaveUrls xmlns="http://soa.incresearch.com/Rave/URL">
+      <RaveUrl utype="utype1" order="2" configId="configId3" localTracking="N">
+         <urlId>urlId4</urlId>
+         <studyName>studyName5</studyName>
+         <studyId>studyId6</studyId>
+         <projectId>projectId7</projectId>
+         <baseUrl>baseUrl8</baseUrl>
+         <getUri>getUri9</getUri>
+         <postUri>postUri10</postUri>
+         <urlUser>urlUser11</urlUser>
+         <urlPwd>urlPwd12</urlPwd>
+         <rules>
+            <rule>
+               <formOID>formOID13</formOID>
+               <itemName>itemName14</itemName>
+               <itemValue>itemValue15</itemValue>
+               <validationType>validationType16</validationType>
+               <xqueryStmt>xqueryStmt17</xqueryStmt>
+            </rule>
+         </rules>
+      </RaveUrl>
+      <RaveUrl utype="utype18" order="19" configId="configId20" localTracking="N">
+         <urlId>urlId21</urlId>
+         <studyName>studyName22</studyName>
+         <studyId>studyId23</studyId>
+         <projectId>projectId24</projectId>
+         <baseUrl>baseUrl25</baseUrl>
+         <getUri>getUri26</getUri>
+         <postUri>postUri27</postUri>
+         <urlUser>urlUser28</urlUser>
+         <urlPwd>urlPwd29</urlPwd>
+         <rules>
+            <rule>
+               <formOID>formOID30</formOID>
+               <itemName>itemName31</itemName>
+               <itemValue>itemValue32</itemValue>
+               <validationType>validationType33</validationType>
+               <xqueryStmt>xqueryStmt34</xqueryStmt>
+            </rule>
+         </rules>
+      </RaveUrl>
+      <RaveUrl utype="utype35" order="36" configId="configId37" localTracking="N">
+         <urlId>urlId38</urlId>
+         <studyName>studyName39</studyName>
+         <studyId>studyId40</studyId>
+         <projectId>projectId41</projectId>
+         <baseUrl>baseUrl42</baseUrl>
+         <getUri>getUri43</getUri>
+         <postUri>postUri44</postUri>
+         <urlUser>urlUser45</urlUser>
+         <urlPwd>urlPwd46</urlPwd>
+         <rules>
+            <rule>
+               <formOID>formOID47</formOID>
+               <itemName>itemName48</itemName>
+               <itemValue>itemValue49</itemValue>
+               <validationType>validationType50</validationType>
+               <xqueryStmt>xqueryStmt51</xqueryStmt>
+            </rule>
+         </rules>
+      </RaveUrl>
+   </RaveUrls>
+   <ODM xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.cdisc.org/ns/odm/v1.3" FileType="Snapshot" FileOID="bfe57d22-630f-4a71-b598-ad11acd3ee6c" CreationDateTime="2021-01-27T10:40:20.195-00:00" ODMVersion="1.3">
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="CGI" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="CGI_LOG_LINE">
+<ItemData ItemOID="CGI.CGIDAT" Value="05/Jan/2021"/>
+<ItemData ItemOID="CGI.CGIREAS" IsNull="Yes"/>
+<ItemData ItemOID="CGI.CGIYN" Value="Y"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="CONS" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="CONS_LOG_LINE">
+<ItemData ItemOID="CONS.CONSYN" Value="Y"/>
+<ItemData ItemOID="CONS.INTERYN" Value="N"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="CSSRS1" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="CSSRS1_LOG_LINE">
+<ItemData ItemOID="CSSRS1.CSSRDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="CSSRS1.CSSRREAS" IsNull="Yes"/>
+<ItemData ItemOID="CSSRS1.CSSRYN" Value="Y"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V1" StudyEventRepeatKey="1">
+<FormData FormOID="DM" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="DM_LOG_LINE">
+<ItemData ItemOID="DM.ADMITDAT" Value="02/Jan/2021"/>
+<ItemData ItemOID="DM.AGE" Value="48"/>
+<ItemData ItemOID="DM.CBP" Value="Y"/>
+<ItemData ItemOID="DM.DOB" Value="02/Feb/1972"/>
+<ItemData ItemOID="DM.ETHNIC" Value="1"/>
+<ItemData ItemOID="DM.RACE" Value="5"/>
+<ItemData ItemOID="DM.RACESP" IsNull="Yes"/>
+<ItemData ItemOID="DM.SEX" Value="F"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="EG" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="EG_LOG_LINE">
+<ItemData ItemOID="EG.CLINSIG" Value="N"/>
+<ItemData ItemOID="EG.EGABML" Value="Y"/>
+<ItemData ItemOID="EG.EGDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="EG.EGREAS" IsNull="Yes"/>
+<ItemData ItemOID="EG.EGTIME" Value="02:00"/>
+<ItemData ItemOID="EG.EGYN" Value="Y"/>
+<ItemData ItemOID="EG.HR" Value="1"/>
+<ItemData ItemOID="EG.PR" Value="1"/>
+<ItemData ItemOID="EG.QRS" Value="0"/>
+<ItemData ItemOID="EG.QT" Value="0"/>
+<ItemData ItemOID="EG.QTCF" Value="0"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="SUBJECT">
+<FormData FormOID="EN" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="EN_LOG_LINE">
+<ItemData ItemOID="EN.SITEID" Value="951"/>
+<ItemData ItemOID="EN.SUBJID" Value="007-951-004"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="EOS" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="EOS_LOG_LINE">
+<ItemData ItemOID="EOS.EOSCWR" IsNull="Yes"/>
+<ItemData ItemOID="EOS.EOSDAT" IsNull="Yes"/>
+<ItemData ItemOID="EOS.EOSDAT2" Value="04/Jan/2021"/>
+<ItemData ItemOID="EOS.EOSDNAS" IsNull="Yes"/>
+<ItemData ItemOID="EOS.EOSREAS" IsNull="Yes"/>
+<ItemData ItemOID="EOS.EOSRESN" IsNull="Yes"/>
+<ItemData ItemOID="EOS.EOSRO" Value="Y"/>
+<ItemData ItemOID="EOS.EOSYN" Value="Y"/>
+<ItemData ItemOID="EOS.REASSP" IsNull="Yes"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V1" StudyEventRepeatKey="1">
+<FormData FormOID="IC" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="IC_LOG_LINE">
+<ItemData ItemOID="IC.ICDAT" Value="02/Jan/2021"/>
+<ItemData ItemOID="IC.ICRESCRN" Value="N"/>
+<ItemData ItemOID="IC.PROTVER" Value="1.3"/>
+<ItemData ItemOID="IC.RECONS" Value="N"/>
+<ItemData ItemOID="IC.RESCRN" IsNull="Yes"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V1" StudyEventRepeatKey="1">
+<FormData FormOID="IE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="IE_LOG_LINE" ItemGroupRepeatKey="1">
+<ItemData ItemOID="IE.CRITTYPE" IsNull="Yes"/>
+<ItemData ItemOID="IE.ELIGYN" Value="Y"/>
+<ItemData ItemOID="IE.EXCCRIT" IsNull="Yes"/>
+<ItemData ItemOID="IE.INCCRIT" IsNull="Yes"/>
+<ItemData ItemOID="IE.SFDAT" IsNull="Yes"/>
+<ItemData ItemOID="IE.SFYN" Value="N"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V1" StudyEventRepeatKey="1">
+<FormData FormOID="MH" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="MH_LOG_LINE" ItemGroupRepeatKey="1">
+<ItemData ItemOID="MH.H_NOW" IsNull="Yes"/>
+<ItemData ItemOID="MH.MHENDAT" IsNull="Yes"/>
+<ItemData ItemOID="MH.MHMED" IsNull="Yes"/>
+<ItemData ItemOID="MH.MHONG" IsNull="Yes"/>
+<ItemData ItemOID="MH.MHSTDAT" IsNull="Yes"/>
+<ItemData ItemOID="MH.MHTERM" Value="Schizophrenia"/>
+<ItemData ItemOID="MH.RECGUID" IsNull="Yes"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PANSS" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PANSS_LOG_LINE">
+<ItemData ItemOID="PANSS.PANSREAS" IsNull="Yes"/>
+<ItemData ItemOID="PANSS.PANSSDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PANSS.PANSSYN" Value="Y"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="1">
+<ItemData ItemOID="PE.BODYSYS" Value="1"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="2">
+<ItemData ItemOID="PE.BODYSYS" Value="2"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="3">
+<ItemData ItemOID="PE.BODYSYS" Value="3"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="4">
+<ItemData ItemOID="PE.BODYSYS" Value="4"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="5">
+<ItemData ItemOID="PE.BODYSYS" Value="5"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="6">
+<ItemData ItemOID="PE.BODYSYS" Value="6"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="7">
+<ItemData ItemOID="PE.BODYSYS" Value="7"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="8">
+<ItemData ItemOID="PE.BODYSYS" Value="8"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="9">
+<ItemData ItemOID="PE.BODYSYS" Value="9"/>
+<ItemData ItemOID="PE.FINDING" Value="2"/>
+<ItemData ItemOID="PE.PEABNSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PE.PEREAS" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.TEMP" Value="36.7"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PK1" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PK1_LOG_LINE" ItemGroupRepeatKey="1">
+<ItemData ItemOID="PK1.LDOSDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PK1.LDOSTIM" Value="02:00"/>
+<ItemData ItemOID="PK1.PKDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PK1.PKTIM" Value="12:00"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PLT" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PLT_LOG_LINE">
+<ItemData ItemOID="PLT.PLCTIME" Value="02:00"/>
+<ItemData ItemOID="PLT.PLTDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="PLT.PLTNRSN" IsNull="Yes"/>
+<ItemData ItemOID="PLT.PLTSTYN" Value="Y"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="PREG" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PREG_LOG_LINE">
+<ItemData ItemOID="PREG.PREGDAT" IsNull="Yes"/>
+<ItemData ItemOID="PREG.PREGNSP" Value="Testing"/>
+<ItemData ItemOID="PREG.PREGRES" IsNull="Yes"/>
+<ItemData ItemOID="PREG.PREGTYPE" IsNull="Yes"/>
+<ItemData ItemOID="PREG.PREGYN" Value="N"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V2A" StudyEventRepeatKey="1">
+<FormData FormOID="RAND" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="RAND_LOG_LINE">
+<ItemData ItemOID="RAND.RANDDAT" IsNull="Yes"/>
+<ItemData ItemOID="RAND.RANDNO" Value="123456"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="SIMPSON" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="SIMPSON_LOG_LINE">
+<ItemData ItemOID="SIMPSON.SIMPDAT" Value="10/Jan/2021"/>
+<ItemData ItemOID="SIMPSON.SIMPREAS" IsNull="Yes"/>
+<ItemData ItemOID="SIMPSON.SIMPYN" Value="Y"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V1" StudyEventRepeatKey="1">
+<FormData FormOID="SV" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="SV_LOG_LINE">
+<ItemData ItemOID="SV.VISDAT" Value="02/Jan/2021"/>
+<ItemData ItemOID="SV.VISLAB" IsNull="Yes"/>
+<ItemData ItemOID="SV.VISND" Value="0"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="SV" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="SV_LOG_LINE">
+<ItemData ItemOID="SV.VISDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="SV.VISLAB" Value="1"/>
+<ItemData ItemOID="SV.VISND" Value="0"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="VS" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="VS_LOG_LINE" ItemGroupRepeatKey="1">
+<ItemData ItemOID="VS.BMI" IsNull="Yes"/>
+<ItemData ItemOID="VS.BODYPOS" Value="1"/>
+<ItemData ItemOID="VS.DIABP" IsNull="Yes"/>
+<ItemData ItemOID="VS.HEIGHT" IsNull="Yes"/>
+<ItemData ItemOID="VS.HEIGHTU" Value="1"/>
+<ItemData ItemOID="VS.HR" IsNull="Yes"/>
+<ItemData ItemOID="VS.SYSBP" IsNull="Yes"/>
+<ItemData ItemOID="VS.VSDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="VS.VSREAS" IsNull="Yes"/>
+<ItemData ItemOID="VS.VSTIM" Value="02:00"/>
+<ItemData ItemOID="VS.VSYN" Value="Y"/>
+<ItemData ItemOID="VS.WAIST" Value="23"/>
+<ItemData ItemOID="VS.WAISTCRU" Value="1"/>
+<ItemData ItemOID="VS.WEIGHT" Value="57.7"/>
+<ItemData ItemOID="VS.WEIGHTU" Value="1"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="VS" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="VS_LOG_LINE" ItemGroupRepeatKey="2">
+<ItemData ItemOID="VS.BMI" IsNull="Yes"/>
+<ItemData ItemOID="VS.BODYPOS" Value="2"/>
+<ItemData ItemOID="VS.DIABP" IsNull="Yes"/>
+<ItemData ItemOID="VS.HEIGHT" IsNull="Yes"/>
+<ItemData ItemOID="VS.HEIGHTU" Value="1"/>
+<ItemData ItemOID="VS.HR" IsNull="Yes"/>
+<ItemData ItemOID="VS.SYSBP" IsNull="Yes"/>
+<ItemData ItemOID="VS.VSDAT" Value="04/Jan/2021"/>
+<ItemData ItemOID="VS.VSREAS" IsNull="Yes"/>
+<ItemData ItemOID="VS.VSTIM" Value="02:00"/>
+<ItemData ItemOID="VS.VSYN" Value="Y"/>
+<ItemData ItemOID="VS.WAIST" Value="23"/>
+<ItemData ItemOID="VS.WAISTCRU" Value="1"/>
+<ItemData ItemOID="VS.WEIGHT" Value="57.7"/>
+<ItemData ItemOID="VS.WEIGHTU" Value="1"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="SUBJECT">
+<FormData FormOID="CTMSINTG" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="CTMSINTG_LOG_LINE">
+<ItemData ItemOID="CTMSINTG.CTMSCDT" Value="04/Jan/2021"/>
+<ItemData ItemOID="CTMSINTG.CTMSETDT" IsNull="Yes"/>
+<ItemData ItemOID="CTMSINTG.CTMSSFDT" IsNull="Yes"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="LB_CHEM" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="LB_CHEM_LOG_LINE">
+<ItemData ItemOID="LB_CHEM.LB_AGE" IsNull="Yes"/>
+<ItemData ItemOID="LB_CHEM.LBDAT" Value="10 Jan 2021">
+<MeasurementUnitRef MeasurementUnitOID=""/>
+</ItemData>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="LB_COAG" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="LB_COAG_LOG_LINE">
+<ItemData ItemOID="LB_COAG.LB_AGE" IsNull="Yes"/>
+<ItemData ItemOID="LB_COAG.LBDAT" Value="10 Jan 2021">
+<MeasurementUnitRef MeasurementUnitOID=""/>
+</ItemData>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="LB_HEMA" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="LB_HEMA_LOG_LINE">
+<ItemData ItemOID="LB_HEMA.LB_AGE" IsNull="Yes"/>
+<ItemData ItemOID="LB_HEMA.LBDAT" Value="10 Jan 2021">
+<MeasurementUnitRef MeasurementUnitOID=""/>
+</ItemData>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="LB_URIN2" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="LB_URIN2_LOG_LINE">
+<ItemData ItemOID="LB_URIN2.APPEARNC" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.LB_AGE" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.LBDAT" Value="10 Jan 2021"/>
+<ItemData ItemOID="LB_URIN2.OCCULT_M" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.PH_M" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.SG_M" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.UGLUC_M" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.UKETOB_M" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.UPROT_M" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.UROBIL_M" IsNull="Yes"/>
+<ItemData ItemOID="LB_URIN2.UWBC_M" IsNull="Yes"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+<ClinicalData StudyOID="KAR-007(SDTSUAT)" MetaDataVersionOID="86">
+<SubjectData SubjectKey="007-951-004">
+<SiteRef LocationOID="951"/>
+<StudyEventData StudyEventOID="V10" StudyEventRepeatKey="1">
+<FormData FormOID="LB_URINE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="LB_URINE_LOG_LINE">
+<ItemData ItemOID="LB_URINE.LB_AGE" IsNull="Yes"/>
+<ItemData ItemOID="LB_URINE.LBDAT" Value="10 Jan 2021">
+<MeasurementUnitRef MeasurementUnitOID=""/>
+</ItemData>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+</ODM>
+   <Details>
+      <sourceSubjectKey>sourceSubjectKey68</sourceSubjectKey>
+      <sourceLocationOID>sourceLocationOID69</sourceLocationOID>
+      <targetSubjectKey>targetSubjectKey70</targetSubjectKey>
+      <targetLocationOID>targetLocationOID71</targetLocationOID>
+      <transfer>transfer72</transfer>
+      <transferred>transferred73</transferred>
+   </Details>
+</Subject>

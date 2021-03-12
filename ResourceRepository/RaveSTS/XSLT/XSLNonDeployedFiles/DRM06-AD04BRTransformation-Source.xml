@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.cdisc.org/ns/odm/v1.3" FileType="Snapshot" FileOID="b890cc30-5d52-449a-a327-7f9f61f0629a" CreationDateTime="2020-11-18T11:30:26.168-00:00" ODMVersion="1.3">
+<ClinicalData StudyOID="DRM06-AD04(SDTSUAT)" MetaDataVersionOID="490">
+<SubjectData SubjectKey="4014-467">
+<SiteRef LocationOID="4014"/>
+<StudyEventData StudyEventOID="SCRN" StudyEventRepeatKey="1">
+<FormData FormOID="PE" FormRepeatKey="1">
+<ItemGroupData ItemGroupOID="PE_LOG_LINE" ItemGroupRepeatKey="1">
+<ItemData ItemOID="PE.HNOW" Value="21 Sep 2020 12:32:30"/>
+<ItemData ItemOID="PE.OTHSP" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEBSYS" Value="General Appearance"/>
+<ItemData ItemOID="PE.PECLINSG" IsNull="Yes"/>
+<ItemData ItemOID="PE.PEDAT" Value="21/Sep/2020"/>
+<ItemData ItemOID="PE.PEND" Value="0"/>
+<ItemData ItemOID="PE.PEXAM" Value="1"/>
+<ItemData ItemOID="PE.PEYN" Value="Y"/>
+<ItemData ItemOID="PE.RECGUID" Value="c5fcd8c9-3f1d-44e6-9f8b-6d307d4af157"/>
+</ItemGroupData>
+</FormData>
+</StudyEventData>
+</SubjectData>
+</ClinicalData>
+</ODM>

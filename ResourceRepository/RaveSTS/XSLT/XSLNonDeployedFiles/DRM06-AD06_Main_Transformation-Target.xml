@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<tns:ODM FileType="Transactional" FileOID="d54ee963-45a9-457d-b345-3f46e7e5eadc" CreationDateTime="2020-11-19T09:49:04.703-00:00" ODMVersion="1.3" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:DVMFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.dvm.DVMFunctions" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:ns1="http://soa.incresearch.com/Rave/URL" xmlns:java="http://www.oracle.com/XSL/Transform/java/java.lang.String" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:XrefFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.xref.XrefFunctions" xmlns:IsUserInGroupFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInGroupFunction" xmlns:client="http://xmlns.oracle.com/RaveSTSPOC/DemoStudyTFM/DemoStudyBPELProcess" xmlns:BasicCredentialsUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.BasicCredentialsUserFunction" xmlns:RuntimeTypeConversionFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.RuntimeTypeConversionFunctions" xmlns:UUIDUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.UUIDUserFunction" xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:IsUserInRoleFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInRoleFunction" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 file:/Users/shrek/jdeveloper/mywork/RaveSTSServiceBusApplication/ResourceRepository/RaveSTS/Schemas/RaveODM.xsd">
+   <tns:ClinicalData MetaDataVersionOID="437" StudyOID="">
+      <tns:SubjectData TransactionType="Update" SubjectKey="6014-003">
+         <tns:SiteRef LocationOID="targetLocationOID99"/>
+         <tns:StudyEventData StudyEventOID="AE" StudyEventRepeatKey="1" TransactionType="Update">
+            <tns:FormData FormOID="AE" FormRepeatKey="1" TransactionType="Update">
+               <tns:ItemGroupData ItemGroupOID="AE_LOG_LINE" TransactionType="Update">
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEYN" Value="N" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AETERM" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AESI" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEISA" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AESTDAT" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEONGO" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AESPDAT" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AESER" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AECN" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AESD" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEDTH" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEIPH" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AELTH" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEOTH" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEDTHDAT" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AESEV" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEREL" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEACT" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AENONE" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AECNMD" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEPROC" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEWTH" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEOTH1" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.OTHSP" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.AEOUT" IsNull="Yes" TransactionType="Update"/>
+                  <tns:ItemData mdsol:Lock="AsFound" ItemOID="AE.RECGUID" Value="eb854678-7708-422a-8e04-eadc13a689f5" TransactionType="Context"/>
+               </tns:ItemGroupData>
+            </tns:FormData>
+         </tns:StudyEventData>
+      </tns:SubjectData>
+   </tns:ClinicalData>
+</tns:ODM>

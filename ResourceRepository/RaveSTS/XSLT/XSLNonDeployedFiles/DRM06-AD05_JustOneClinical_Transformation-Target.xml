@@ -1,0 +1,25 @@
+<ns0:ODM xmlns:BasicCredentialsUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.BasicCredentialsUserFunction" xmlns:DVMFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.dvm.DVMFunctions" xmlns:UUIDUserFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.UUIDUserFunction" xmlns:XrefFunctions="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.functions.xref.XrefFunctions" xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:IsUserInGroupFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInGroupFunction" xmlns:IsUserInRoleFunction="http://www.oracle.com/XSL/Transform/java/com.bea.wli.sb.stages.functions.IsUserInRoleFunction" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns0="http://www.cdisc.org/ns/odm/v1.3" FileType="Transactional" FileOID="7bb0a590-b5ce-4f90-b659-5654bd00a213" CreationDateTime="2020-12-14T09:44:33.455-00:00" ODMVersion="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 file:/Users/shrek/jdeveloper/mywork/RaveSTSServiceBusApplication/ResourceRepository/RaveSTS/Schemas/RaveODM.xsd">
+   <ns0:ClinicalData StudyOID="" MetaDataVersionOID="668">
+      <ns0:SubjectData SubjectKey="targetSubjectKey171" TransactionType="Update">
+         <ns0:SiteRef LocationOID="targetLocationOID172"/>
+         <ns0:StudyEventData StudyEventOID="BASE" StudyEventRepeatKey="1" TransactionType="Update">
+            <ns0:FormData FormOID="PK" FormRepeatKey="1" TransactionType="Update">
+               <ns0:ItemGroupData ItemGroupOID="PK_LOG_LINE" TransactionType="Update">
+                  <ns0:ItemData mdsol:Lock="AsFound" ItemOID="PK.PKDAT" Value="07/Dec/2021" TransactionType="Update"/>
+                  <ns0:ItemData mdsol:Lock="AsFound" ItemOID="PK.PKND" Value="0" TransactionType="Update"/>
+                  <ns0:ItemData mdsol:Lock="AsFound" ItemOID="PK.PKTM" Value="10:23" TransactionType="Update"/>
+               </ns0:ItemGroupData>
+            </ns0:FormData>
+         </ns0:StudyEventData>
+         <ns0:StudyEventData StudyEventOID="BASE" StudyEventRepeatKey="1" TransactionType="Update">
+            <ns0:FormData FormOID="ADA" FormRepeatKey="1" TransactionType="Update">
+               <ns0:ItemGroupData ItemGroupOID="ADA_LOG_LINE" TransactionType="Update">
+                  <ns0:ItemData mdsol:Lock="AsFound" ItemOID="ADA.ADADAT" Value="07/Dec/2021" TransactionType="Update"/>
+                  <ns0:ItemData mdsol:Lock="AsFound" ItemOID="ADA.ADAND" Value="0" TransactionType="Update"/>
+                  <ns0:ItemData mdsol:Lock="AsFound" ItemOID="ADA.ADATM" Value="11:00" TransactionType="Update"/>
+               </ns0:ItemGroupData>
+            </ns0:FormData>
+         </ns0:StudyEventData>
+      </ns0:SubjectData>
+   </ns0:ClinicalData>
+</ns0:ODM>

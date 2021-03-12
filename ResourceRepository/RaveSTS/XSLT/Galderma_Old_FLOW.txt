@@ -1,0 +1,43 @@
+galderma studies (OLD FLOW)
+
+1. Once the data is there in the RaveSTSSubjectAudit table with status =new 
+2. A PL/SQL job is will gets triggered on a timely basis having two procedures :
+
+		PL/SQL Body:
+                    declare
+                        RETURN_CODE NUMBER := 0;
+                        RETURN_MSG VARCHAR2(200) := null;
+                    BEGIN
+                        soacustom.RAVE_STS_PKG.RAVE_STS_REPEAT_KEYS(return_code,return_msg );
+                        soacusom.RAVE_STS_PKG.rave_sts_transactions(return_code,return_msg ); 
+                    END;
+    2.1. soacustom.RAVE_STS_PKG.RAVE_STS_REPEAT_KEYS --> This procedure will take all the records of repeat key status for new data in RaveSTSSubjectAudit table and insert it to rave_sts_repeatkeys table.
+         Note: All the configuration tables should have the study configurations.
+               Table names for study configurations : Rave_STS_Subject_form_mapping, rave_sts_subj_spec, rave_sts_classifications, rave_sts_config, rave_url_config, rave_sts_sync_dl_config:
+    2.2 soacusom.RAVE_STS_PKG.rave_sts_transactions --> This procedure will create unique transactions in rave_sts_transactions table with status as START.
+
+3. A DB job (RAVE_SDT_TRANSACTION_START) will run and change the status of of transactions to NEW (from status = START )one by one. In Galderma there's no mention of retriggering the enrollment form first.
+4. when status =NEW the service RaveSTSPullSUBJODM will trigger this service also takes the ondemand query and executes it after the execution the status changed to READY.
+5. when status= READY in transaction table the service RaveSTSSubjectPullPub will trigger this service will get the urls from config table and gets the odm for the form. and pulish the JMS msg to RaveSTSSubjectTransformQueue.
+6. when the message arrives in RaveSTSSubjectTransformQueue the service RaveSTSSubjectTransformSub triggers this service will do the transformation based on spec by calling ResourceRepository OSB service and 
+   this service is also responsible for chnaging the transaction type in payload at itemgroup level by referring to rave_sts_repeatkeys table. after forming a JMS message this services send the msg to RaveSTSSubjectTargetQueue.
+7. when the message is in RaveSTSSubjectTargetQueue the RaveSTSSubjectTarget service gets triggered which will take the transformed ODM and POST it to the target study post URL from JMS msg. updates the status (SUCCESS/FAILD) back in Transaction table.
+
+
+
+
+
+
+Notes for RD_06_SPR_203065, RD_06_SPR_202685
+
+1. Source Study: RD_06_SPR_203065, RD_06_SPR_202685 and Target Study: RD_06_SPR_202699
+2. Source and target sites for production will be same and subject_name is also the same since in source the last three digits are already concatenated.
+3. in enrollment form data :
+   3.1 the value of itemdata for ItemOID="SUBJINFO.PSPNUM" will be the study code for ex :Value="202685".
+   3.2 send PRVSUBID as blank <tns:ItemData mdsol:Lock="AsFound" ItemOID="SUBJINFO.PRVSUBID" Value=""/>
+4. While testing the studies it seems that data is less than the query retuning might be a HDF issue - discussed with sanjay
+5. No data populated to target issue but rave populated it: Rave populates the data to SDTSINTG form (there should be trigger active on this form to populate field in other form) -- thad needs to look 
+6. Tested only few forms in UAT testing is success migration to prod is pending and source site and target site is same as that in prod.
+
+
+	

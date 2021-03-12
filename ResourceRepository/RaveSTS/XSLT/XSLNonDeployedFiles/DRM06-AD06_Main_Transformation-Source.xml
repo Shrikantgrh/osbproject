@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Subject xmlns="http://soa.incresearch.com/Rave/STS">
+  <RaveUrls xmlns="http://soa.incresearch.com/Rave/URL">
+    <RaveUrl utype="utype29" order="30" configId="configId31" localTracking="N">
+      <urlId>urlId32</urlId>
+      <studyName>studyName33</studyName>
+      <studyId>studyId34</studyId>
+      <projectId>projectId35</projectId>
+      <baseUrl>baseUrl36</baseUrl>
+      <getUri>getUri37</getUri>
+      <postUri>postUri38</postUri>
+      <urlUser>urlUser39</urlUser>
+      <urlPwd>urlPwd40</urlPwd>
+      <rules>
+        <rule>
+          <formOID>formOID41</formOID>
+          <itemName>itemName42</itemName>
+          <itemValue>itemValue43</itemValue>
+          <validationType>validationType44</validationType>
+          <xqueryStmt>xqueryStmt45</xqueryStmt>
+        </rule>
+      </rules>
+    </RaveUrl>
+    <RaveUrl utype="utype46" order="47" configId="configId48" localTracking="N">
+      <urlId>urlId49</urlId>
+      <studyName>studyName50</studyName>
+      <studyId>studyId51</studyId>
+      <projectId>projectId52</projectId>
+      <baseUrl>baseUrl53</baseUrl>
+      <getUri>getUri54</getUri>
+      <postUri>postUri55</postUri>
+      <urlUser>urlUser56</urlUser>
+      <urlPwd>urlPwd57</urlPwd>
+      <rules>
+        <rule>
+          <formOID>formOID58</formOID>
+          <itemName>itemName59</itemName>
+          <itemValue>itemValue60</itemValue>
+          <validationType>validationType61</validationType>
+          <xqueryStmt>xqueryStmt62</xqueryStmt>
+        </rule>
+      </rules>
+    </RaveUrl>
+    <RaveUrl utype="utype63" order="64" configId="configId65" localTracking="N">
+      <urlId>urlId66</urlId>
+      <studyName>studyName67</studyName>
+      <studyId>studyId68</studyId>
+      <projectId>projectId69</projectId>
+      <baseUrl>baseUrl70</baseUrl>
+      <getUri>getUri71</getUri>
+      <postUri>postUri72</postUri>
+      <urlUser>urlUser73</urlUser>
+      <urlPwd>urlPwd74</urlPwd>
+      <rules>
+        <rule>
+          <formOID>formOID75</formOID>
+          <itemName>itemName76</itemName>
+          <itemValue>itemValue77</itemValue>
+          <validationType>validationType78</validationType>
+          <xqueryStmt>xqueryStmt79</xqueryStmt>
+        </rule>
+      </rules>
+    </RaveUrl>
+  </RaveUrls>
+  <ODM xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns:xlink="http://www.w3.org/1999/xlink"
+       xmlns="http://www.cdisc.org/ns/odm/v1.3" FileType="Snapshot" FileOID="d54ee963-45a9-457d-b345-3f46e7e5eadc"
+       CreationDateTime="2020-11-19T09:49:04.703-00:00" ODMVersion="1.3">
+    <ClinicalData StudyOID="DRM06-AD06(Prod)" MetaDataVersionOID="437">
+      <SubjectData SubjectKey="6014-003">
+        <SiteRef LocationOID="6014"/>
+        <StudyEventData StudyEventOID="AE" StudyEventRepeatKey="1">
+          <FormData FormOID="AE" FormRepeatKey="1">
+            <ItemGroupData ItemGroupOID="AE_LOG_LINE">
+              <ItemData ItemOID="AE.AEYN" Value="N"/>
+              <ItemData ItemOID="AE.AETERM" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AESI" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEISA" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AESTDAT" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEONGO" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AESPDAT" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AESER" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AECN" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AESD" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEDTH" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEIPH" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AELTH" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEOTH" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEDTHDAT" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AESEV" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEREL" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEACT" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AENONE" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AECNMD" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEPROC" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEWTH" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEOTH1" IsNull="Yes"/>
+              <ItemData ItemOID="AE.OTHSP" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AEOUT" IsNull="Yes"/>
+              <ItemData ItemOID="AE.AESDTDER" IsNull="Yes"/>
+              <ItemData ItemOID="AE.RECGUID" Value="eb854678-7708-422a-8e04-eadc13a689f5"/>
+              <ItemData ItemOID="AE.HNOW" Value="17 Nov 2020 09:10:42"/>
+            </ItemGroupData>
+          </FormData>
+        </StudyEventData>
+      </SubjectData>
+    </ClinicalData>
+  </ODM>
+  <Details>
+    <sourceSubjectKey>sourceSubjectKey96</sourceSubjectKey>
+    <sourceLocationOID>sourceLocationOID97</sourceLocationOID>
+    <targetSubjectKey>targetSubjectKey98</targetSubjectKey>
+    <targetLocationOID>targetLocationOID99</targetLocationOID>
+    <transfer>transfer100</transfer>
+    <transferred>transferred101</transferred>
+  </Details>
+</Subject>
